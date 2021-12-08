@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inder&family=Sarina&family=Telex&display=swap");
+
+body {
+  font-family: "Telex", sans-serif;
+  font-weight: 300;
+}
+
+.navbar {
+  background-color: #4527a0;
+}
+
+.title {
+  font-family: "Sarina", cursive;
+}
+
+#carousel {
+  height: fit-content;
+  align-items: flex-start;
+}
+#carousel h1 {
+  font-family: "Sarina", cursive;
+}
+
+#about {
+  background-color: #e6eaf4;
+  padding-top: 70px;
+}
+#about h2 {
+  font-family: "Inder", sans-serif;
+}
+#about h5 {
+  font-family: "Inder", sans-serif;
+}
+
+#clients {
+  padding-top: 30px;
+  background-image: url(parallax.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 75%;
+  padding-top: 70px;
+  font-family: "Inder", sans-serif;
+}
+
+#services {
+  padding-top: 70px;
+  background-color: #e6eaf4;
+}
+#services h5 {
+  font-family: "Inder", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+#projects {
+  padding: 70px 0px;
+  font-family: "Inder", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.gallery {
+  background-color: #dbddf1;
+  padding: 80px 0;
+}
+
+.gallery img {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+#gallery-modal .modal-img {
+  width: 100%;
+}
+
+#contact {
+  padding-top: 70px;
+  background-color: #e6eaf4;
+}
+#contact h2 {
+  font-family: "Inder", sans-serif;
+}
+#contact h4 {
+  font-family: "Inder", sans-serif;
+}
+
+.box:hover {
+  box-shadow: 2px 2px 12px rgba(54, 32, 32, 0.2);
+}
